@@ -1,1 +1,1 @@
-About 4 to 6 e-5 seconds
+About 0.03 to 0.06 seconds for 100.000 runs
