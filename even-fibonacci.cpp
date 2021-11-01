@@ -24,16 +24,15 @@ int main() {
     for (int i = 0; i < 100000; ++i) {
 
         uint sum = 2;
-        uint prev_prev_number = 1;
+        uint prev_prev_number = 0;
         uint prev_number = 2;
-        uint next_number = 3;
+        uint next_even_number = 8;
 
-        while (next_number < 4000000) {
-            if (next_number % 2 == 0)
-                sum += next_number;
+        while (next_even_number < 4000000) {
+            sum += next_even_number;
             prev_prev_number = prev_number;
-            prev_number = next_number;
-            next_number = prev_prev_number + prev_number;
+            prev_number = next_even_number;
+            next_even_number = prev_prev_number + 4 * prev_number;
         }
 
         cout << sum;
