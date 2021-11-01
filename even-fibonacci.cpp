@@ -21,10 +21,10 @@ int main()
 {
     tic();
 
-    int sum = 2;
-    int prev_prev_number = 1;
-    int prev_number = 2;
-    int next_number = 3;
+    uint sum = 2;
+    uint prev_prev_number = 1;
+    uint prev_number = 2;
+    uint next_number = 3;
 
     while (next_number < 4000000)
     {
