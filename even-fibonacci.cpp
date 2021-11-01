@@ -35,7 +35,7 @@ int main()
         next_number = prev_prev_number + prev_number;
     }
 
-    cout << sum << endl;
+    cout << sum;
 
     toc();
 
